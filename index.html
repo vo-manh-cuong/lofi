@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asecct/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./asecct/css/main.css">
+    <link rel="stylesheet" href="./asecct/css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app_wrap">
+        <div class="header">
+            <div class="header-logo">
+                <img src="./asecct/logo/logo-header.gif" alt="" class="logo_header">
+
+            </div>
+            <div class="header-navagation">
+                <li class="header-navagation-item header-nav-how">How it works</li>
+                <li class="header-navagation-item">Pricing</li>
+                <li class="header-navagation-item">Contact us</li>
+                <li class="header-navagation-item">More</li>
+                <li class="header-navagation-item">Merch 
+                    <span class="new">New!</span>
+
+                </li>
+            </div>
+            <div class="header-action">
+                <li class="header-action-item change active ">
+                    <p class="suny">
+                        <i class="suny-cricle fas fa-circle"></i>
+                        <i class="suny-sun fas fa-sun"></i>
+                    </p>
+                    <p class="night">
+                        <i class="night-moon fas fa-moon"></i>
+                        <i class="night-circle fas fa-circle"></i>
+                    </p>
+                </li>
+                <li class="header-action-item">
+                    <i class="fas fa-expand-arrows-alt fullscreen"></i>
+                </li>
+                <li class="header-action-item action-item-share">
+                    Share
+                </li>
+                <li class="header-action-item action-item-sign">
+                    Sign up
+                </li>
+                <li class="header-action-item action-item-login">
+                    Login
+                </li>
+            </div>
+        </div>
+        <div class="content">
+            <div class="button-change-rain">
+                <i class="far fa-circle circle-wrap"></i>
+                <i class="fas fa-circle circle-child"></i>
+                <p class="circle-name">City Rain</p>
+            </div>
+           
+            <div class="content-font">
+                
+            </div>
+            <div class="content-video-wrap">
+
+                <video autoplay class="content-video"     muted="muted" id="dayVideo" src="./asecct/backgroud-video/BDR Day-Christmas ver 112521 (1).mp4" ></video>
+                <video autoplay class="content-video"     muted="muted" id="nightVideo" src="./asecct/backgroud-video/BDR STARRY NIGHT - Christmas ver.mp4" ></video>
+                <video autoplay class="content-video"     muted="muted" id="rainDayVideo" src="./asecct/backgroud-video/BDR RAINY DAY - Christmas ver.mp4" ></video>
+                <video autoplay class="content-video"     muted="muted" id="rainNightVideo" src="./asecct/backgroud-video/BDR RAINY NIGHT - Christmas ver.mp4" ></video>
+                <audio autoplay class="typing" src="./asecct/music-type/gophim.mp3"></audio>
+                <audio class="audio" src="./asecct/music-type/rain_city.mp3"></audio>
+                <audio class="audioTraffic" src="./asecct/music-type/traffic.mp3"></audio>
+                <audio class="audioFire" src="./asecct/music-type/fireplace.mp3"></audio>
+                <audio class="main-music" src="./asecct/main-music/chill1.mp3"></audio>
+            </div>
+            <div class="content-action">
+                <li class="content-action-item action-list">
+                    <i class="fas fa-stream list-icon"></i>
+                    <div class="action-wrap-content">
+                        <div class="action-mood">
+                            <div class="mood-header">
+                                Mood
+                            </div>
+                            <ul class="action-mood-regime">
+                                <li class="action-mood-regime-item">
+                                    <span class="action-mood-regime-icon">
+                                        <i class="fas fa-cloud-moon"></i>
+                                    </span>
+                                    <p class="action-mood-regime-content">
+                                        Sleepy
+                                    </p>
+                                </li>
+                                <li class="action-mood-regime-item active">
+                                    <span class="action-mood-regime-icon">
+                                        <i class="fas fa-guitar"></i>
+                                    </span>
+                                    <p class="action-mood-regime-content">
+                                        Guitar
+                                    </p>
+                                </li>
+                                <li class="action-mood-regime-item">
+                                    <span class="action-mood-regime-icon">
+                                        <i class="fas fa-mug-hot"></i>
+                                    </span>
+                                    <p class="action-mood-regime-content">
+                                        Chill
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul class="main-volumn">
+                                <li class="main-volumn-item">
+                                    <i class="fas fa-volume-off"></i>
+                                </li>
+                                <li class="main-volumn-item main-volumn-item-main">
+                                    <span class="main-input-wrap">
+                                        <input class="mainVolumn" type="range" start="0" end="100" step="1" value="100">
+                                        <div class="input-Font-Main"></div>
+
+                                    </span>
+                                </li>
+                                <li class="main-volumn-item">
+                                    <i class="fas fa-volume-up"></i>
+                                </li>
+                            </ul>
+                            <div class="background-noise">
+                                <p class="background-noise-name">
+                                    Background noises
+                                </p>
+                                <ul class="background-noise-list">
+                                    <li class="background-noise-item">
+                                        <p class="background-noise-item-name">City traffic</p>
+                                        <div class="background-noise-item-input">
+                                            <input class="input-traffic" type="range" name="" id="" start="0" end="100" value="50" step="1">
+                                            <div class="input-font input-font-traffic"></div>
+                                        </div>
+                                    </li>
+                                    <li class="background-noise-item">
+                                        <p class="background-noise-item-name">City Rain</p>
+                                        <div class="background-noise-item-input">
+                                            <input class="input-rain" type="range" name="" id="" start="0" end="100" value="50" step="1">
+                                            <div class="input-font input-font-rain"></div>
+                                        </div>
+                                    </li>
+                                    <li class="background-noise-item">
+                                        <p class="background-noise-item-name">Fireplace</p>
+                                        <div class="background-noise-item-input">
+                                            <input class="input-fire" type="range" name="" id="" start="0" end="100" value="50" step="1">
+                                            <div class="input-font input-font-fire"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mood-footer">
+                            Mix Mode
+                        </div>
+
+                    </div>
+                </li>
+                <li class="content-action-item action-item-cloud ">
+                    <i class="fas fa-cloud action-cloud"></i>
+                    <div class="Premium">
+                        <div class="Premium-header">
+                            Saved templates
+                        </div>
+                        <p class="Premium-content">
+                            Templates are a premium feature
+                        </p>
+                        <div class="Premium-action">
+                            <span class="Premium-action-icon">
+                                <i class="fas fa-crown"></i>
+                            </span>
+                            <p class="Premium-action-name">Go Premium</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="content-action-item action-film ">
+                    <i class="fas fa-film action-film-icon"></i>
+                    <div class="action-change-set">
+                        <div class="action-change-set-header">
+                            Change Set
+                        </div>
+                        <ul class="action-change-set-list">
+                            <li class="action-change-set-item">
+                                <img class="action-change-set-item-img" src="./asecct/change-set/chill.6d5d8ab2.png" alt="">
+                               
+                            </li>
+                            <li class="action-change-set-item">
+                                <img class="action-change-set-item-img" src="./asecct/change-set/cafe-set.588fc661.png" alt="">
+                                <div class="Premium-action Prenium-btn">
+                                    <span class="Premium-action-icon ">
+                                        <i class="fas fa-crown"></i>
+                                    </span>
+                                    <p class="Premium-action-name">Go Premium</p>
+                                </div>
+                            </li>
+                            <li class="action-change-set-item">
+                                <img class="action-change-set-item-img" src="./asecct/change-set/forest-set.9d2b0160.png" alt="">
+                                <div class="Premium-action Prenium-btn">
+                                    <span class="Premium-action-icon ">
+                                        <i class="fas fa-crown"></i>
+                                    </span>
+                                    <p class="Premium-action-name">Go Premium</p>
+                                </div>
+                            </li>
+                            <li class="action-change-set-item">
+                                <img class="action-change-set-item-img" src="./asecct/change-set/lofi_desk.947e4566.png" alt="">
+                                <div class="Premium-action Prenium-btn">
+                                    <span class="Premium-action-icon ">
+                                        <i class="fas fa-crown"></i>
+                                    </span>
+                                    <p class="Premium-action-name">Go Premium</p>
+                                </div>
+                            </li>
+                            <li class="action-change-set-item">
+                                <img class="action-change-set-item-img" src="./asecct/change-set/ocean-set.2f88f0b7.png" alt="">
+                                <div class="Premium-action Prenium-btn">
+                                    <span class="Premium-action-icon ">
+                                        <i class="fas fa-crown"></i>
+                                    </span>
+                                    <p class="Premium-action-name">Go Premium</p>
+                                </div>
+                            </li>
+                            <li class="action-change-set-item">
+                                <img class="action-change-set-item-img" src="./asecct/change-set/van-set.e036daf9.png" alt="">
+                                <div class="Premium-action Prenium-btn">
+                                    <span class="Premium-action-icon ">
+                                        <i class="fas fa-crown"></i>
+                                    </span>
+                                    <p class="Premium-action-name">Go Premium</p>
+                                </div>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </li>
+                <li class="content-action-item action-cricket">
+                    <i class="fas fa-dot-circle action-cricket-icon"></i>
+                    <div class="pricing-wrap">
+                        
+                        <div class="action-cricket-wrap">
+                            <div class="action-cricket-header">
+                                Focus Mode
+                            </div>
+                            <ul class="action-cricket-list">
+                                <li class="action-cricket-item">
+                                    <span class="action-cricket-item-icon-firt">
+                                        <i class="fas fa-play-circle"></i>
+    
+                                    </span>
+                                    <p class="action-cricket-item-name">
+                                        Start Session
+                                    </p>
+                                    <span class="action-cricket-item-icon-two">
+                                        <i class="fas fa-user-lock"></i>                                  
+                                    </span>
+                                </li>
+                                <li class="action-cricket-item">
+                                    <span class="action-cricket-item-icon-firt">
+                                        <i class="fas fa-stopwatch"></i>
+    
+                                    </span>
+                                    <p class="action-cricket-item-name">
+                                        Timer and Tasks
+                                    </p>
+                                    <span class="action-cricket-item-icon-two">
+                                        <i class="fas fa-user-lock"></i>                                  
+                                    </span>
+                                </li>
+                                <li class="action-cricket-item">
+                                    <span class="action-cricket-item-icon-firt">
+                                        <i class="far fa-clipboard"></i>
+    
+                                    </span>
+                                    <p class="action-cricket-item-name">
+                                        Notes
+                                    </p>
+                                    <span class="action-cricket-item-icon-two">
+                                        <i class="fas fa-user-lock"></i>                                  
+                                    </span>
+                                </li>
+                                <li class="action-cricket-item">
+                                    <span class="action-cricket-item-icon-firt">
+                                        <i class="fas fa-history"></i>
+    
+                                    </span>
+                                    <p class="action-cricket-item-name">
+                                        History
+                                    </p>
+                                    <span class="action-cricket-item-icon-two">
+                                        <i class="fas fa-user-lock"></i>                                  
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Pricing">
+                            <div class="Pricing-header ">
+                                Get <span>Premium</span> Premium to use our suite of productivity tools
+                            </div>
+                            <div class="Premium-action Pricing-btn">
+                               
+                                <p class="Premium-action-name Pricing-name">Go to Pricing</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+        <div class="footer">
+            <li class="footer-content">
+                Music by - lofi.co 2021 ©
+            </li>
+            <ul class="footer-action">
+                <li class="footer-action-item back-btn">
+                    <i class="fas fa-backward"></i>
+                </li>
+                <div class="footer-action-item music-change active">
+                    <li class="music-change-play">
+                        <i class="far fa-play-circle music-change-play-btn"></i>
+                    </li>
+                    <li class="music-change-pause">
+                        <i class="far fa-pause-circle music-change-pausese-btn"></i>
+                    </li>
+                </div>
+                <li class="footer-action-item next-btn">
+                    <i class="fas fa-forward"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
